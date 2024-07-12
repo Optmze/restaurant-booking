@@ -1,0 +1,27 @@
+/* Home.css */
+
+.home {
+    height: 100vh; /* Ensure full viewport height */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Add padding for content */
+    color: white
+  }
+  
+  .home h1 {
+    font-size: 3rem; /* Example font size for restaurant name */
+    margin-bottom: 20px; /* Example margin */
+    justify-content: center;
+
+  }
+  
+  .home p {
+    font-size: 1.5rem; /* Example font size for promotional message */
+  }
+  

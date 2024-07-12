@@ -1,0 +1,53 @@
+.reservation-form {
+    /* Overall form styling */
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the form horizontally */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Light background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .reservation-form .form-group {
+    /* Styling for individual form groups */
+    margin-bottom: 15px;
+  }
+  
+  .reservation-form label {
+    /* Label styling */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .reservation-form input[type="text"],
+  .reservation-form input[type="number"] {
+    /* Styling for text and number inputs */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .reservation-form button[type="submit"] {
+    /* Submit button styling */
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s; /* Add smooth hover effect */
+    margin-top: 15px; /* Add some space above the button */
+    align-self: center; /* Center the button horizontally */
+  }
+  
+  .reservation-form button[type="submit"]:hover {
+    /* Hover effect for submit button */
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
